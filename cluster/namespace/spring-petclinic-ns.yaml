@@ -3,7 +3,7 @@ kind: Namespace
 metadata:
   name: spring-petclinic
   labels:
-    argocd.argoproj.io/managed-by: demo
+    argocd.argoproj.io/managed-by: openshift-operators
 spec:
   finalizers:
   - kubernetes
